@@ -1,25 +1,35 @@
 # Civilized Eating Enforcer
 
-Have you ever encountered a situation whereupon there is no other resolution than tactically retreating?
+When Odin heard his enemies were growing once again in strength, he looked to Midgard and sent his Valkyries to scour the battlefields for the greatest of their warriors. 
 
-Has perchance this ignoble situation occurred to you when using an aquatic mode of transportation?
+Alas, for all his All-Seeing prowess, Odin overlooked a crucial aspect of the unsophisticated culture of Midgard's warriors, their terrible eating habits.
 
-When looking back upon such moments, does your monacle quiver in shame at the pedestrian act of *jumping* of your transport?
+Join us in this installement of the Civilized series upon which we return eating habbits to their proper course!
 
-Worry not furthermore!
+No more standing and eating, no more grabbing things from the ground and eating them as if one where an animal!
 
-I present thee the Civilized Boat Exit!
+Thanks to this mod you can ensure that your warriors learn proper eating manners.
 
-You can now proceed to exit your transport in an orderly manner, unlikely the rapscalions fleeing for their lives. For remember: **Manners maketh man.**
+One must be sitting down at a table to eat, or exceptionally when on a ship one may eat, but one may not eat and drive, this is but a recipe for disaster!
 
-## Actual useful info
+# Actual useful info
 
 ### Usage
 
-If the player y coordinate is plus or minus 1 unit from the ladder exit point y coordinate (necessary since it is slightly above boat floor) the player will be transported to:
-Negative ** Vector3(1f, 2f, 0f) ** of the exit point.
-
-This means the Ladder component can be used in a separate mod, and this mod can handle ensuring the player can go up and down it.
+In order to be allowed to eat, before the vanila checks a few checks are added:
+- Is the character sitting on a chair ?
+    - Yes:
+		- Is the character on a Ship ?
+			- Yes:
+				- You **can** eat.
+			- No:
+				- Is the character **looking** at a table ?
+					- Yes:
+						- You **can** eat.
+					- No:
+						- You can **not** eat.
+	- No:
+		- You can **not** eat.
 
 ### Install
 
@@ -27,7 +37,7 @@ Place plugin in BepInEx\plugins directory
 
 ## Git
 
-[Civilized Boat Exit](https://github.com/Mixone-FinallyHere/TestRunner/tree/main/CivilizedBoatExit)
+[Civilized Eating Enforcer](https://github.com/Mixone-FinallyHere/ValheimCivilizedMods/tree/main/CivilizedEatingEnforcer)
 
 ## Contact
 

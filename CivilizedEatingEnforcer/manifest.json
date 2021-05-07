@@ -1,8 +1,8 @@
 {
     "name": "CivilizedEatingEnforcer",
     "version_number": "0.0.1",
-    "website_url": "https://github.com/Mixone-FinallyHere/TestRunner/tree/main/CivilizedBoatExit",
-    "description": "Allows for a more civilized exit strategy from one's aquatic mode of transport.",
+    "website_url": "https://github.com/Mixone-FinallyHere/ValheimCivilizedMods/tree/main/CivilizedEatingEnforcer",
+    "description": "One must be sitting down at a table to eat, or exceptionally when on a ship one may eat, but one may not eat and drive, this is but a recipe for disaster!",
     "dependencies": [
         "denikson-BepInExPack_Valheim-5.4.1000"        
     ]
