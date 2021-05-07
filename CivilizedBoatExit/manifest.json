@@ -1,0 +1,9 @@
+{
+    "name": "CivilizedBoatExit",
+    "version_number": "0.0.1",
+    "website_url": "https://github.com/Mixone-FinallyHere/TestRunner/tree/main/CivilizedBoatExit",
+    "description": "Allows for a more civilized exit strategy from one's aquatic mode of transport.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1000"        
+    ]
+}
